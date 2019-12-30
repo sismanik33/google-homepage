@@ -16,9 +16,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
+    border-radius: 25px;     
+}
+
+.search-bar input[type=text]:hover{
+    box-shadow: 5px 2px 2px gray;
+    border-radius: 5px;   
 }
 
 .submit-buttons{
     padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* background-color: grey; */
+  }
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.top-left-links {
+    float: left;
+}
+
+.top-right-links {
+    float: right;
+}
+
+.bottom-nav-bar ul{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+.bottom-left-links {
+    float: left;
+}
+
+.bottom-right-links {
+    float: right;
 }
